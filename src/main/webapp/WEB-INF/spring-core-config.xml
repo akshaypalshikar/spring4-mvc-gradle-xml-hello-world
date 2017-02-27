@@ -12,5 +12,5 @@
 	<bean id="json" class="com.google.gson.Gson" />
 	<bean id="rest" class="org.springframework.web.client.RestTemplate" />
 	<bean id="headers" class="org.springframework.http.HttpHeaders" />
-
+	<bean id="queue" class="java.util.concurrent.LinkedBlockingQueue"/>
 </beans>
